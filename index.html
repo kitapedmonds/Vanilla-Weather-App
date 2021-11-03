@@ -13,29 +13,41 @@
     />
     <title>Weather App</title>
   </head>
-  <style>
-    body {
-      background: #ffebc9;
-    }
-  </style>
   <body>
     <div class="container">
-      <h1>Austin, Texas</h1>
-      <ul>
-        <li>Tuesday 04:00</li>
-        <li>Clear</li>
-      </ul>
-      <div class="row">
-        <div class="col-6"></div>
-        85°F|°C
-      </div>
-      <div class="col-6">
+      <div class="weather-app">
+        <h1>Austin</h1>
         <ul>
-          <li>Percipitation: 0%</li>
-          <li>Humidity: 70%</li>
-          <li>Wind: 5 mph</li>
+          <li>Tuesday 05:00</li>
+          <li>Clear</li>
         </ul>
+        <div class="row">
+          <div class="col-6">
+            <img
+              src="https://ssl.gstatic.com/onebox/weather/64/sunny.png"
+              alt="clear"
+            />
+            90°F|°C
+          </div>
+          <div class="col-6">
+            <ul>
+              <li>Percipitation: 0%</li>
+              <li>Humidity: 78%</li>
+              <li>Wind: 5 mph</li>
+            </ul>
+          </div>
+        </div>
       </div>
+
+      <small>
+        <a
+          href="https://github.com/kitapedmonds/Vanilla-Weather-App.git"
+          target="_blank"
+        >
+          Open Source Code
+        </a>
+        by Markita Edmonds
+      </small>
     </div>
     <script src="src/app.js"></script>
   </body>
