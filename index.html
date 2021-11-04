@@ -16,6 +16,7 @@
       href="https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&display=swap"
       rel="stylesheet"
     />
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
     <link rel="stylesheet" href="src/style.css" />
     <title>Weather App</title>
   </head>
@@ -24,10 +25,10 @@
       <div class="weather-app-wrapper">
         <div class="weather-app">
           <div class="overview">
-            <h1>AUSTIN</h1>
+            <h1 id="city"></h1>
             <ul>
               <li>Tuesday 05:00</li>
-              <li>Clear</li>
+              <li id="description"></li>
             </ul>
           </div>
           <div class="row">
@@ -39,16 +40,16 @@
                   class="float-left"
                 />
                 <div class="float-left">
-                  <strong>90</strong>
+                  <strong id="temperature"></strong>
                   <span class="units">°F|<a href="#">°C</a></span>
                 </div>
               </div>
             </div>
             <div class="col-6">
               <ul>
-                <li>Percipitation: 0%</li>
-                <li>Humidity: 78%</li>
-                <li>Wind: 5 mph</li>
+                <li>Feels Like: <span id="feels"> </span>°</li>
+                <li>Humidity: <span id="humidity"></span>%</li>
+                <li>Wind: <span id="wind"></span> mph</li>
               </ul>
             </div>
           </div>
