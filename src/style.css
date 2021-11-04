@@ -1,0 +1,30 @@
+body {
+  font-family: "Public Sans", sans-serif;
+}
+.weather-app {
+  max-width: 800px;
+  margin: 80px auto;
+  padding: 50px;
+  border: 1px solid #d88c08;
+  background-color: #ffebc9;
+  border-radius: 5%;
+}
+h1 {
+  color: #753422;
+  font-family: "Oswald", sans-serif;
+  font-weight: 700;
+  font: bolder;
+  line-height: 30px;
+  margin-bottom: 0;
+}
+ul {
+  margin: 0;
+  padding: 0;
+}
+li {
+  color: #b05b3b;
+  font-family: "Oswald", sans-serif;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
