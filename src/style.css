@@ -63,6 +63,7 @@ li:first-letter {
 .weather-temperature .active {
   color: #753422;
   cursor: default;
+  text-decoration: none;
 }
 
 .weather-temperature .active:hover {
