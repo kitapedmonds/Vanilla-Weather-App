@@ -92,3 +92,6 @@ li:first-letter {
 .weather-forecast-min {
   opacity: 0.5;
 }
+.extras {
+  font-size: larger;
+}
